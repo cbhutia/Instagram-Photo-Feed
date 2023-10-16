@@ -1,0 +1,51 @@
+body {
+    background: gainsboro;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 1px;
+    font-family: Roboto, sans-serif;
+} 
+
+div.post {
+    background: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+div.post img {
+    width: 100%;
+}
+
+div.container {
+    width: 500px;
+    margin: auto;
+}
+
+div.post h2, div.post p {
+    padding: 10px;
+    margin: 0;
+}
+
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+div.post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+    font-family: 'Open Sans';
+}
+
+div.post .post-foot {
+    font-family: 'Open Sans';
+}
